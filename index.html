@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Personal Website</title>
+
+  <style>
+    /* 여기서 디자인을 자유롭게 변경하세요 */
+    :root {
+      --background: #F7F4ED;
+      --text: #22364A;
+      --accent: #7A8B72;
+      --card: #FFFFFF;
+      --roundness: 18px;
+    }
+
+    body {
+      margin: 0;
+      padding: 60px 24px;
+      background: var(--background);
+      color: var(--text);
+      font-family: Arial, sans-serif;
+      line-height: 1.7;
+    }
+
+    main {
+      max-width: 760px;
+      margin: auto;
+    }
+
+    h1 { font-size: 40px; }
+
+    .card {
+      background: var(--card);
+      padding: 24px;
+      margin-top: 24px;
+      border-radius: var(--roundness);
+      border-left: 5px solid var(--accent);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <h1>안녕하세요!</h1>
+    <p>저의 개인 홈페이지에 오신 것을 환영합니다.</p>
+
+    <div class="card">
+      <h2>About Me</h2>
+      <p>인하대학교에서 화학공학을 공부하고 있습니다.</p>
+    </div>
+
+    <div class="card">
+      <h2>My Experiences</h2>
+      <p>2022, 2023 전국대학조정대회 출전</p>
+      <p>멍냥멍냥 동아리 운영진 활동</p>
+    </div>
+  </main>
+</body>
+</html>
